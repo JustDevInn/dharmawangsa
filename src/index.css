@@ -1,13 +1,28 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@layer base {
+    body {
+      @apply text-primary bg-white;
+    }
+    .h1 {
+      @apply text-[40px] md:text-[90px] font-semibold uppercase leading-[120%] tracking-[0.2em] mb-2;
+    }
+    .h2 {
+      @apply text-[25px] md:text-[60px] font-extralight uppercase leading-[120%] tracking-[0.2em] mb-2;
+    }
+    .section {
+      @apply h-[600px] w-screen;
+    }
+    .semisection {
+      @apply h-[250px] w-screen;
+    }
+    .btn {
+      @apply py-[5px] px-[5px] h-[35px] w-[100px] flex items-center justify-center uppercase border-[#c2c1c1] hover:border-black border-2 font-bold tracking-widest bg-transparent text-black transition duration-300;
+    }
+    .btnlg {
+      @apply py-[5px] px-[5px] h-[50px] w-[140px] flex items-center justify-center uppercase border-[#c2c1c1] hover:border-black border-2 font-bold tracking-widest bg-transparent text-black transition duration-300 text-xl;
+    }
+   
+  }
