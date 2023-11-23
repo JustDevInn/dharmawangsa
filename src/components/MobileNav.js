@@ -47,8 +47,8 @@ const MobileNav = () => {
       </div>
       {/* menu list */}
       <ul className='h-full flex flex-col justify-center
-      items-center gap-y-8 text-black font-primary 
-      font-bold text-3xl'>
+      items-center gap-y-8 text-black
+      font-thin uppercase  tracking-widest text-3xl'>
         <li>
           <Link onClick={() => openMenu(!openMenu)} to='/'>Home</Link>
         </li>

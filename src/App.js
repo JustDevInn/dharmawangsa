@@ -9,6 +9,7 @@ import Donate from './pages/Donate';
 import Contact from './pages/Contact';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
+
 const App = () => {
   return (
     <>
