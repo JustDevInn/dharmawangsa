@@ -5,7 +5,8 @@ const Footer = () => {
   <footer className="h-[300px] w-screen bg-secondary">
     <div className="flex flex-col">
     {/* title */}
-      <h1 className=" md:w-full text-center
+      <h1
+      className=" md:w-full text-center
       text-[30px] md:text-[70px] font-semibold uppercase leading-[120%] tracking-[0.2em] my-[30px]">
       Dharmawangsa
       </h1>
@@ -28,7 +29,7 @@ const Footer = () => {
         <p className="font-thin tracking-widest lowercase">80571</p>
         </div>
       </div>
-      <p className="m-2 text-xs text-gray-300 sm:text-center font-thin">© 2023 <a href="/" class="hover:underline">Dharmawangsa</a>. All rights reserved.</p>
+      <p className="m-2 text-xs text-gray-600 sm:text-center font-thin">© 2023 <a href="/" class="hover:underline">Dharmawangsa</a>. All rights reserved.</p>
     </div>
   </footer>
   );

@@ -4,6 +4,7 @@ import MobileNav from './MobileNav';
 // import link
 import { Link } from 'react-router-dom';
 
+
 function Nav() {
 
   return (
@@ -21,19 +22,19 @@ function Nav() {
         {/* nav initially hidden - show on desktop */}
         <nav className='hidden lg:flex gap-12 font-light
          uppercase'>
-        <Link to='/' className='hover:text-[#696c6d] text-black
+        <Link to='/#toppage' smooth={true} duration={500} className='hover:text-[#696c6d] text-black
           transition'
           >Home
         </Link>
-        <Link to='/about' className='hover:text-[#696c6d] text-black 
+        <Link to='/about/#toppage' smooth={true} duration={500} className='hover:text-[#696c6d] text-black 
           transition'
           >About
         </Link>
-        <Link to='/donate' className='hover:text-[#696c6d] text-black 
+        <Link to='/donate/#toppage' smooth={true} duration={500} className='hover:text-[#696c6d] text-black 
           transition'
           >Donate
         </Link>
-        <Link to='/contact' className='hover:text-[#696c6d] text-black 
+        <Link to='/contact/#toppage' smooth={true} duration={500} className='hover:text-[#696c6d] text-black 
           transition'
           >Contact
         </Link>
