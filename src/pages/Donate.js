@@ -3,6 +3,7 @@ import React from "react";
 import dog1 from '../img/dharmawangsa1.png';
 import dog2 from '../img/dharmawangsa2.png';
 import dog3 from '../img/dharmawangsa3.png';
+
 // linking
 import { Link } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
@@ -68,13 +69,10 @@ const Donate = () => {
         </div>
         {/* text */}
     <div className="z-20 absolute md:right-[100px]
-    flex flex-col justify-center items-center w-1/2 md:text-right">
-      <h1 className="h1 mb-10">About</h1>
-      <h2 className="text-[12px] md:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
-      By taking an animal in need temporarily into your home you're freeing up a spot so the shelter or rescue can take in another dog.
-      Giving your foster dog the time he needs to be ready for adoption.helping the shelter or rescue learn more about the dog so he can
-      end up in the best home possible. Socialising the dog to a home environment and possibly getting him used to being around other pets
-       and different types of people.
+    flex flex-col justify-center items-center w-2/3 md:w-1/2 md:text-right">
+      <h1 className="text-[30px] md:text-[50px] font-semibold uppercase leading-[120%] tracking-[0.2em] mb-10">Supporting Our Cause</h1>
+      <h2 className="text-[12px] lg:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
+      Our mission thrives on your support. Donations fuel our efforts in rescuing, sheltering, and finding homes for dogs in need.<br></br><br></br> Every contribution, big or small, makes a tangible difference in their lives. <br></br><br></br>Your generosity directly impacts our ability to provide medical care, food, shelter, and love to these deserving animals.
       </h2>
     </div>
     </section>
@@ -90,12 +88,10 @@ const Donate = () => {
     <section className="relative section bg-secondary flex flex-row justify-center items-center ">
   {/* text */}
     <div className="z-20 absolute md:left-[100px]
-    flex flex-col justify-center items-center w-1/2 text-left h-full">
-      <h1 className="h1 mb-10 md:mb-5">impact</h1>
-      <h2 className=" md:w-4/5 text-[12px] md:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
-      By taking an animal in need temporarily into your home you're freeing up a spot so the shelter or rescue can take in another dog.
-      Giving your foster dog the time he needs to be ready for adoption.helping the shelter or rescue learn more about the dog so he can
-      end up in the best home possible.
+    flex flex-col justify-center items-center w-2/3 md:w-1/2 text-left h-full">
+      <h1 className="text-[30px] md:text-[50px] font-semibold uppercase leading-[120%] tracking-[0.2em] mb-10 md:mb-5">Your Contributions Matter</h1>
+      <h2 className=" md:w-4/5 text-[12px] lg:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
+      Your donations create ripples of change. <br></br><br></br>They enable us to rescue more dogs, expand our shelter capacity, and ensure each dog finds a loving home. <br></br><br></br>Your support directly translates into transformed lives, providing hope, care, and a second chance to these incredible creatures. <br></br><br></br>Together, we're making a meaningful difference.
       </h2>
     </div>
     {/* img */}
@@ -128,12 +124,10 @@ const Donate = () => {
 
     {/* STORIES */}
     <section className="section bg-secondary flex justify-center items-center text-left">
-        <div className="w-1/2 text-center">
-          <h1 className="h1 mb-10">stories</h1>
-          <h4 className="text-sm md:text-xl tracking-[0.1em]">
-          “Fostering a dog is one of the most rewarding experiences you can have.
-          Fostering a dog is one of the most rewarding experiences you can have.
-          Fostering a dog is one of the most rewarding experiences you can have.” 
+        <div className="w-2/3 md:w-1/2 text-center">
+          <h1 className="text-[25px] md:text-[50px] font-semibold uppercase leading-[120%] tracking-[0.2em] mb-10">Heartwarming Chronicles"</h1>
+          <h4 className="text-sm md:text-xl tracking-[0.1em] font-extralight">
+          "Bringing Luna to Dharmawangsa was a leap of faith. <br></br><br></br>She needed a safe haven to heal, and I needed time to prepare a loving home. The shelter provided more than temporary support; it nurtured her spirit. <br></br><br></br>Now, Luna’s vitality fills our home, a testament to the shelter's transformative care."
           </h4>
         </div>
     </section>

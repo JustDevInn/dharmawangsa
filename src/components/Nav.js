@@ -20,7 +20,7 @@ function Nav() {
           <h1>Dharmawangsa</h1>
         </Link>
         {/* nav initially hidden - show on desktop */}
-        <nav className='hidden lg:flex gap-12 font-light
+        <nav className='hidden lg:flex gap-12 font-extralight
          uppercase'>
         <Link to='/#toppage' smooth={true} duration={500} className='hover:text-[#696c6d] text-black
           transition'

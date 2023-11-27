@@ -25,7 +25,7 @@ const Home = () => {
     className="z-20 absolute left-[30px] lg:left-[100px] bottom-[100px] md:bottom-[80px]
     flex flex-col justify-center items-start">
       <h1 className="h1">Rescuing</h1>
-      <h2 className="h2">is our true passion</h2>
+      <h2 className="h2">Committed to Lifesaving</h2>
     </motion.div>
     {/* img */}
     <div>
@@ -154,13 +154,8 @@ const Home = () => {
         whileInView={'show'}
         viewport={{once: false, amount: 0.7}}
       className="h1 mb-6">our mission</motion.h1>
-      <p className="w-2/3 md:w-1/2 h-full lowercase md:uppercase tracking-[0.1em] font-light">TO PROVIDE A SAFE-HAVEN RESCUE SHELTER FOR BALI STRAY DOGS TO PROTECT THEM FROM THE CRUEL OUTSIDE WORLD.
-          <br /><br />
-          TO HUMALY REDUCE THE NUMBERS OF UNWANTED STRAY DOGS THROUGH SPAY AND NEUTERING.
-          <br /><br />
-          TO IMPROVE ADOPTION RATES, FOR GIVING DOGS IN EMERGENCY SPACE.
-          <br /><br />
-          TO ELIMINATE RABIES AND DISEASES, REDUCE PET ABANDONMENT AND PROVIDE PUBLIC ATTITUDES TOWARDS STRAY ANIMALS.
+      <p className="bg-secondary w-2/3 md:w-1/2 text-sm lg:text-lg h-full md:uppercase tracking-[0.1em] font-light">
+      Our mission intertwines compassion and action, offering a haven for Bali's stray dogs. <br></br><br></br>We provide shelter, love, and healing for rescued dogs, nurturing them through fostering while striving to increase adoption rates. Our efforts extend to reducing stray populations through ethical practices, ensuring a brighter future for these animals. <br></br><br></br>With a focus on health, care, and finding forever homes, we work to eliminate diseases, reduce abandonment, and foster positive perceptions towards strays.
       </p>
     </div>
     {/* img */}

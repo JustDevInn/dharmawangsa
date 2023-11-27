@@ -65,7 +65,7 @@ const About = () => {
             animate={{scale: 1, y: 0}}
             exit={{scale: 0, y: '100%'}}
             transition={transition1}
-      className="h1 lg:text-[120px] font-normal">what we do</motion.h1>
+      className="h1 font-extralight text-center">Our Rescue Efforts</motion.h1>
       </div>
     </section>
 
@@ -79,15 +79,12 @@ const About = () => {
     <section className="relative section bg-secondary flex flex-row justify-center items-center ">
   {/* text */}
     <div className="z-20 absolute md:left-[100px]
-    flex flex-col justify-center items-center w-1/2 md:w-4/6 xl:w-1/2 text-left">
+    flex flex-col justify-center items-center w-2/3 md:w-4/6 xl:w-1/2 text-left">
       <h5 className="text-[20px] md:text-[35px] font-light uppercase leading-[120%] tracking-[0.2em] mb-5">
-      Adopting a dog is one of the most rewarding experiences you can have.”
+      "Adoptions: Finding Forever Homes"
       </h5>
       <h2 className="text-[12px] md:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
-      By taking an animal in need temporarily into your home you're freeing up a spot so the shelter or rescue can take in another dog.
-      Giving your foster dog the time he needs to be ready for adoption.helping the shelter or rescue learn more about the dog so he can
-      end up in the best home possible. Socialising the dog to a home environment and possibly getting him used to being around other pets
-       and different types of people.
+      Adoptions mark the pinnacle, offering dogs permanent, loving homes. <br></br><br></br>It's a celebration where rescued dogs finally find their forever families. This step signifies the successful end of a journey, where dogs transition from shelters or fostering to a life filled with love, care, and belonging. <br></br><br></br>Each adoption is a triumph, a testament to the power of compassion and the joy of welcoming a new furry family member.
       </h2>
     </div>
     {/* img */}
@@ -120,14 +117,12 @@ const About = () => {
         </div>
         {/* text */}
     <div className="z-20 absolute
-    flex flex-col justify-center items-center w-1/2 md:w-4/5 lg:w-1/2 lg:right-[50px] text-right">
+    flex flex-col justify-center items-center w-2/3 md:w-4/5 lg:w-1/2 lg:right-[50px] text-right">
       <h5 className="text-[20px] md:text-[35px] font-light uppercase leading-[120%] tracking-[0.2em] mb-5">
-      fostering a dog is one of the most rewarding experiences you can have.”
+      "Fostering: Nurturing Futures"
       </h5>
       <h2 className="text-[12px] md:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
-      By taking an animal in need temporarily into your home you're freeing up a spot so the shelter or rescue can take in another dog.
-      Giving your foster dog the time he needs to be ready for adoption.helping the shelter or rescue learn more about the dog so he can
-      end up in the best home possible. 
+      Fostering nurtures dogs, providing temporary homes and love. <br></br><br></br>It's a pivotal phase where dogs receive care, learn trust, and prepare for adoption. Fosterers play a vital role in assessing behavior, matching dogs with ideal homes. <br></br><br></br>This process eases shelter burden, aiding more rescues, and transforms lives by offering a bridge to forever families.
       </h2>
     </div>
     </section>
@@ -142,14 +137,14 @@ const About = () => {
     <section className="relative section bg-secondary flex flex-row justify-center items-center ">
   {/* text */}
     <div className="z-20 absolute
-    flex flex-col justify-center items-center w-1/2 md:w-4/5 lg:w-1/2 lg:left-[50px] text-left">
+    flex flex-col justify-center items-center w-2/3 md:w-4/5 lg:w-1/2 lg:left-[50px] text-left">
       <h5 className="text-[20px] md:text-[35px] font-light uppercase leading-[120%] tracking-[0.2em] mb-5">
-      sheltering a dog in need is one of the most rewarding experiences you can have.”
+      "Shelters: A Haven for Rescued Dogs"
       </h5>
       <h2 className="text-[12px] md:text-[25px] font-extralight leading-[120%] tracking-[0.1em] mb-2">
-      By taking an animal in need temporarily into your home you're freeing up a spot so the shelter or rescue can take in another dog.
-      Giving your foster dog the time he needs to be ready for adoption.helping the shelter or rescue learn more about the dog so he can
-      end up in the best home possible. Socialising the dog to a home.
+      Shelters serve as vital sanctuaries, offering temporary refuge and care for rescued dogs in need.<br></br><br></br> 
+      By fostering through shelters, individuals provide crucial support, offering a nurturing environment that aids in the healing, 
+      rehabilitation, and eventual adoption of these animals, contributing significantly to their well-being and the mission of rescue organizations.
       </h2>
     </div>
     {/* img */}
